@@ -30,19 +30,19 @@ while player is False:
             print("You lose! Paper covers Rock")
         else:
             # we win! such winning
-            print("You win!" player, "smashes", computer_choice)
+            print("You win!", player, "smashes", computer_choice)
 
     elif player == "Paper":
         if computer_choice == "Scissors":
-            print("You lose!" computer_choice, "cut", payer)
+            print("You lose!", computer_choice, "cut", payer)
         else:
-            print("You win!" player, "covers", computer_choice)
+            print("You win!", player, "covers", computer_choice)
 
     elif player == "Scissors":
         if computer_choice == "Rock":
-    	    print("You lose!" computer_choice, "smashes", player)
+    	    print("You lose!", computer_choice, "smashes", player)
         else:
-            print("You win!" player, "cuts", computer_choice)
+            print("You win!", player, "cuts", computer_choice)
 
     elif player == "quit":
         exit()
