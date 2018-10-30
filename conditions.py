@@ -5,7 +5,7 @@ print ("Rules that govern the stae of water")
 current_temp = False
 
 while current_temp is False:
-	#make this a nmber and clean the code up (DRY it out)
+    # make this a nmber and clean the code up (DRY it out)
     current_temp = input("Enter a temperature:\n")
     # see what current temp is
     print("you input:", current_temp)
